@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "serverstart": "set DEBUG=express-locallibrary:* & npm run start"
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "set DEBUG=express-locallibrary:* & npm run devstart"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
